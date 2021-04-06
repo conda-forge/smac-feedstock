@@ -11,7 +11,7 @@ source:
   sha256: 486699469c7c04fae902a683d01c4550a1fbcd471e986f6b459eba45bce23e51
 
 build:
-  number: 0
+  number: 1
   noarch: python
   entry_points:
     - smac = smac.smac_cli:cmd_line_call
@@ -36,7 +36,7 @@ requirements:
     - scikit-learn >=0.22.0
     - scikit-optimize
     - scipy >=0.18.1
-    - __glibc
+    - __linux
 
 test:
   imports:
@@ -44,15 +44,8 @@ test:
   commands:
     - pip check
     - smac --help
-    - pytest
   requires:
-    - mock
-    - nose
     - pip
-    - pytest
-  source_files:
-    - test
-    - examples
 
 
 about:
