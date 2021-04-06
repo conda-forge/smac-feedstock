@@ -36,7 +36,7 @@ requirements:
     - scikit-learn >=0.22.0
     - scikit-optimize
     - scipy >=0.18.1
-    - __glibc
+    - __linux
 
 test:
   imports:
