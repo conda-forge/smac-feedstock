@@ -44,15 +44,8 @@ test:
   commands:
     - pip check
     - smac --help
-    - pytest
   requires:
-    - mock
-    - nose
     - pip
-    - pytest
-  source_files:
-    - test
-    - examples
 
 
 about:
