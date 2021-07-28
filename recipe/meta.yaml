@@ -1,5 +1,5 @@
 {% set name = "smac" %}
-{% set version = "0.13.1" %}
+{% set version = "0.14.0" %}
 
 
 package:
@@ -8,10 +8,10 @@ package:
 
 source:
   url: https://github.com/automl/SMAC3/archive/v{{ version }}.tar.gz
-  sha256: 486699469c7c04fae902a683d01c4550a1fbcd471e986f6b459eba45bce23e51
+  sha256: 6dca1e77e8120e1bcac61649214652c0720378c770d0b085c0d66078a232c5ac
 
 build:
-  number: 1
+  number: 0
   noarch: python
   entry_points:
     - smac = smac.smac_cli:cmd_line_call
@@ -20,27 +20,27 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.6
+    - python >=3.7
   run:
     - configspace >=0.4.14,<0.5
-    - emcee >=2.1.0
     - dask-core
     - distributed
     - joblib
-    - lazy_import
     - numpy >=1.7.1
     - psutil
     - pynisher >=0.4.1
     - pyrfr >=0.8.0
-    - python >=3.6
+    - python >=3.7
     - scikit-learn >=0.22.0
-    - scikit-optimize
-    - scipy >=0.18.1
+    - scipy >=1.7.0
     - __linux
+  run_constrained:
+    - emcee >=3.0.0
 
 test:
   imports:
     - smac
+    - smac.configspace
   commands:
     - pip check
     - smac --help
