@@ -1,5 +1,5 @@
 {% set name = "smac" %}
-{% set version = "0.14.0" %}
+{% set version = "1.0.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 6dca1e77e8120e1bcac61649214652c0720378c770d0b085c0d66078a232c5ac
+  sha256: c1c2b6d00ea7467bcf58be05bd7bbfe17f193ed3407204c45fa9eba780382382
 
 build:
   number: 0
