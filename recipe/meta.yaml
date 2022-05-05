@@ -25,7 +25,7 @@ requirements:
     - numpy >=1.7.1
     - scipy >=1.7.0
     - psutil
-    - pynishe r>=0.4.1
+    - pynisher >=0.4.1
     - ConfigSpace >=0.5.0
     - joblib
     - scikit-learn >=0.22.0
