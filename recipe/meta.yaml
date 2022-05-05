@@ -41,10 +41,7 @@ test:
     - smac
     - smac.configspace
   commands:
-    - pip check
     - smac --help
-  requires:
-    - pip
 
 
 about:
