@@ -1,5 +1,5 @@
 {% set name = "smac" %}
-{% set version = "1.2.0" %}
+{% set version = "1.2" %}
 
 
 package:
@@ -55,7 +55,7 @@ about:
     performs better.
   license: BSD-3-Clause
   license_family: BSD
-  license_file: LICENSE.txt
+  license_file: LICENSE
   doc_url: https://automl.github.io/SMAC3/
   dev_url: https://github.com/automl/SMAC3
 
