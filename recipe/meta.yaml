@@ -1,5 +1,5 @@
 {% set name = "smac" %}
-{% set version = "1.2.0" %}
+{% set version = "1.2" %}
 
 
 package:
