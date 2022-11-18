@@ -5,3 +5,5 @@ github:
   tooling_branch_name: main
 bot:
   inspection: update-grayskull
+conda_build:
+  pkg_format: '2'
