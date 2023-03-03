@@ -1,11 +1,11 @@
-About smac
-==========
+About smac-feedstock
+====================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/smac-feedstock/blob/main/LICENSE.txt)
 
 Home: https://www.automl.org/automated-algorithm-design/algorithm-configuration/smac/
 
 Package license: BSD-3-Clause
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/smac-feedstock/blob/main/LICENSE.txt)
 
 Summary: Sequential Model-based Algorithm Configuration
 
