@@ -39,7 +39,6 @@ requirements:
 test:
   imports:
     - smac
-    - smac.configspace
   commands:
     - smac --help
 
