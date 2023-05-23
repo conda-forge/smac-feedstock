@@ -1,5 +1,5 @@
 {% set name = "smac" %}
-{% set version = "2.0.0" %}
+{% set version = "2.0.1" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 832294dd56d8f8dfbd874aa2f58b8b0d213639bcde3927a521c5b08ff12a7e2d
+  sha256: d07016deb023798b22ecb95108239e7196143f509103e538a343245a99b9f432
 
 build:
   number: 0
@@ -22,6 +22,10 @@ requirements:
     - pip
     - python >=3.8
   run:
+    - configspace >=0.6.1
+    - dask-core
+    - dask-jobqueue
+    - regex
     - numpy >=1.23.3
     - scipy >=1.9.2
     - psutil
